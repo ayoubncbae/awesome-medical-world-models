@@ -1,0 +1,18 @@
+dataset,domain,modality,use_case,url,notes
+LUMIERE,Brain MRI / glioma,Longitudinal MRI,"Brain-WM, glioma progression modeling",https://www.cancerimagingarchive.net/collection/lumiere/,TCIA collection for longitudinal GBM imaging.
+MIMIC-CXR,Chest radiography,Chest X-ray + reports,"X-WIN, CheXWorld, CXR foundation models",https://physionet.org/content/mimic-cxr/2.1.0/,Large public CXR dataset.
+CheXpert,Chest radiography,Chest X-ray,Chest pathology classification benchmark,https://stanfordmlgroup.github.io/competitions/chexpert/,Large labeled CXR benchmark.
+NIH ChestX-ray14,Chest radiography,Chest X-ray,CXR disease classification,https://nihcc.app.box.com/v/ChestXray-NIHCC,NIH clinical center CXR dataset.
+VinDr-CXR,Chest radiography,Chest X-ray,CXR pathology detection,https://physionet.org/content/vindr-cxr/1.0.0/,Radiologist-labeled CXR dataset.
+RSNA Pneumonia Detection Challenge,Chest radiography,Chest X-ray,Pneumonia detection benchmark,https://www.kaggle.com/c/rsna-pneumonia-detection-challenge,Kaggle/RSNA benchmark.
+JSRT,Chest radiography,Chest X-ray,Nodule detection / CXR evaluation,http://db.jsrt.or.jp/eng.php,Japanese Society of Radiological Technology dataset.
+COVIDx,Chest radiography,Chest X-ray,COVID-19 CXR evaluation,https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md,COVID-Net/COVIDx benchmark.
+HCC-TACE / HCC-TACE-Seg,Oncology treatment planning,CT / MRI + treatment outcomes,"MeWM, TaDiff-style treatment simulation",,Paper-specific dataset; add public link if released.
+EHRWorld-110K,EHR,Longitudinal clinical events,EHRWorld long-horizon trajectory simulation,https://arxiv.org/abs/2602.03569,Introduced with EHRWorld; public dataset link not independently verified.
+MIMIC-III,EHR / ICU,Clinical events + notes,Foresight and EHR timeline modeling,https://physionet.org/content/mimiciii/1.4/,Public ICU EHR dataset.
+MIMIC-IV,EHR / ICU,Clinical events,Clinical trajectory modeling,https://physionet.org/content/mimiciv/3.1/,Updated MIMIC EHR dataset.
+Epic Cosmos,EHR,Medical events,CoMET scaling study,https://cosmos.epic.com/,Large-scale Epic EHR dataset; access governed by Epic.
+SurgToolLoc-2022,Surgical video,Endoscopic surgical video,Surgical Vision World Model,https://surgtoolloc.grand-challenge.org/,Surgical tool localization challenge dataset.
+SATA,Surgical robot action,Surgical video + action text alignment,SurgWorld,https://arxiv.org/abs/2512.23162,Introduced with SurgWorld; public dataset link not independently verified.
+Tahoe-100M,Single-cell biology,Single-cell perturbation data,VCWorld / virtual-cell simulation,https://www.tahoebio.com/tahoe-100m,Large-scale single-cell perturbation atlas.
+GeneTAK,Biological knowledge / perturbation,Gene / pathway / perturbation information,VCWorld mechanistic reasoning,https://arxiv.org/abs/2512.00306,Referenced in VCWorld; add dedicated dataset link if released.

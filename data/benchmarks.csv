@@ -1,0 +1,10 @@
+domain,metrics,examples,notes
+Temporal clinical prediction,Success@k; retention rate; event prediction accuracy; SMAPE,"EHRWorld, Foresight, CoMET",Use long-horizon consistency and clinically meaningful event retention.
+Treatment planning,F1-score; precision; recall; Jaccard index; specificity; treatment ranking accuracy,"MeWM, CLARITY, Brain-WM",Evaluate recommendation quality and treatment protocol selection.
+Survival / risk prediction,C-index; Brier score; calibration error; risk stratification AUC,"CLARITY, MeWM, Foresight","Report calibration, not only discrimination."
+Medical image generation,SSIM; PSNR; LPIPS; FID; expert Turing test,"Brain-WM, TaDiff, MeWM",Use expert review because photorealism can hide biological errors.
+Segmentation / lesion localization,Dice; IoU; Hausdorff distance; lesion-wise F1,"TaDiff, tumor mask forecasting",Separate mask accuracy from image fidelity.
+Probe / robotic guidance,Navigation error; plane-guidance error; task success rate; path ratio,"EchoWorld, Cardiac Copilot, MT World Model",Report human/robot operational metrics.
+Surgical policy evaluation,Policy rank correlation; success/failure classification; rollout fidelity,"Cosmos-Surg-dVRK, SurgWorld",Compare simulated rollouts against real policy performance.
+Virtual-cell simulation,DE prediction; perturbation ranking; pathway consistency; mechanism agreement,"VCWorld, Lingshu-Cell",Prioritize biological plausibility and mechanistic validation.
+Counterfactual validity,Intervention sensitivity; causal consistency; off-policy agreement; uncertainty calibration,"MeWM, CLARITY, clinical WM reviews",Most medical WMs need stronger causal validation.

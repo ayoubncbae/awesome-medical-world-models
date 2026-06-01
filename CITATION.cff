@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Awesome Medical World Models
+message: If this repository helps your research, please cite it.
+type: dataset
+authors:
+  - name: Awesome Medical World Models Contributors
+year: 2026
+repository-code: https://github.com/YOUR-USERNAME/awesome-medical-world-models
+url: https://github.com/YOUR-USERNAME/awesome-medical-world-models
+license: MIT
+keywords:
+  - medical artificial intelligence
+  - world models
+  - clinical trajectory simulation
+  - treatment planning
+  - medical imaging
+  - virtual cell
