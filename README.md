@@ -304,41 +304,6 @@ Recommended `papers.csv` fields:
 year,category,model,title,venue,modality,task,paper_url,code_url,project_url,code_status,notes
 ```
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome. Please add new entries through a pull request.
-
-A useful contribution includes:
-
-1. paper title;
-2. year and venue;
-3. category;
-4. paper URL;
-5. code URL, if available;
-6. project page, if available;
-7. one-line summary;
-8. dataset / benchmark used;
-9. reproducibility status.
-
-Please do not add unverifiable code links. If code is not public, mark it as `official code not found`.
-
----
-
-## 📝 Citation
-
-If this repository helps your research, please cite it as:
-
-```bibtex
-@misc{{awesome_medical_world_models_2026,
-  title        = {{Awesome Medical World Models}},
-  author       = {{Awesome Medical World Models Contributors}},
-  year         = {{2026}},
-  howpublished = {{GitHub repository}},
-  url          = {{https://github.com/YOUR-USERNAME/awesome-medical-world-models}}
-}}
-```
 
 ---
 
